@@ -84,7 +84,7 @@ public class TeacherDAO {
 
 	}
 
-	public List<Teacher> selectById(Long id) {
+	private List<Teacher> selectById(Long id) {
 		if (null == id) {
 			return null;
 		}

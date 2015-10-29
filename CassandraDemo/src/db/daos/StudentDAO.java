@@ -77,7 +77,7 @@ public class StudentDAO {
 	}
 	
 
-	public List<Student> selectById(Long id) {
+	private List<Student> selectById(Long id) {
 		if (null == id) {
 			return null;
 		}
